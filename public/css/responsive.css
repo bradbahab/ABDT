@@ -1,0 +1,115 @@
+html {
+   -webkit-text-size-adjust: none;
+}
+.video embed,
+.video object,
+.video iframe {
+   width: 100%;
+   height: auto;
+}
+img{
+	max-width:100%;
+	//height: auto;
+   	width: auto\9; /* ie8 */
+}
+
+@media only screen and (max-width: 1040px) {
+	#shopBtn{
+		font-size: 130%;		
+	}	
+}
+@media only screen and (max-width: 1040px) {
+
+	#menu li 
+	{
+		color: white;
+		//font-weight: bold;
+		font-size: 120%;
+		margin-left: 1%;
+		margin-right: 1%;
+		margin-top: 1%;
+		margin-bottom: 1%;		
+	}
+
+	body{
+		padding-top: 0%;
+		margin-top: 0%;
+		min-width:320px;
+		border-top: 0px solid white;
+	}
+	
+	#mainImg{
+		margin-top: 0px;
+	}
+	
+	#shopBtn{
+		font-size: 130%;	
+		
+		//font-weight: bold;	
+		//margin: 0 auto;
+		//margin-bottom: 5%;
+		//margin-top: 5%;
+		//text-align:center;
+		//display:block;
+		//background-image: linear-gradient(gold, yellow, gold);
+		//width: 30%;
+		//height: 40px;
+		//border-radius: 3%;	
+	}
+	.subContentContainer{
+		width: 80%;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 479px) {
+
+	body{
+		padding-top: 0%;
+		margin-top: 0%;
+		min-width:320px;
+		border-top: 0px solid white;
+	}
+
+	#dynamicContentContainer{
+		width: 100%;	
+	}
+	
+	#priceLbl, #priceValue{
+		font-size: 150%;
+	}
+		#shopBtn{
+		font-size: 100%;		
+	}
+	.subContentContainer{
+		width: 96%;
+	}
+	.subSocialMediaContainer{
+		width:75%;
+	}
+	
+	
+#priceLbl,
+#titleLbl,
+#descriptionLbl {
+	padding-top: 3%;
+	font-size: 120%;
+	font-weight: bold;
+	text-align: left;
+	
+}
+
+#priceValue,
+#titleValue,
+#descriptionValue {
+	font-size: 120%;
+	padding-top: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
+	
+}
+
+	
+}
